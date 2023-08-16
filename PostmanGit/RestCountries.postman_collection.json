@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "3d767e13-dfa2-4c70-a89a-07861dbf7a81",
+		"name": "RestCountries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25494270",
+		"_collection_link": "https://www.postman.com/grey-desert-175999/workspace/simplilearn-public/collection/25494270-3d767e13-dfa2-4c70-a89a-07861dbf7a81?action=share&source=collection_link&creator=25494270"
+	},
+	"item": [
+		{
+			"name": "RestCountries/jordan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/jordan",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"jordan"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

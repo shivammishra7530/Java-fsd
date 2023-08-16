@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "708b3f01-cc85-43bd-9817-44837ce10539",
+		"name": "OpenWeatherMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25494270",
+		"_collection_link": "https://www.postman.com/grey-desert-175999/workspace/simplilearn-public/collection/25494270-708b3f01-cc85-43bd-9817-44837ce10539?action=share&source=collection_link&creator=25494270"
+	},
+	"item": [
+		{
+			"name": "OpenWeratherMap/CityWeatherDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=new delhi&units=metric&appid=0edac9fa4a014543566ab3dba0bb3fd3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "new delhi"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "appid",
+							"value": "0edac9fa4a014543566ab3dba0bb3fd3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
